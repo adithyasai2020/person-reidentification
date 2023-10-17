@@ -1,7 +1,7 @@
 # person-reidentification
 The target of this project is to make a model that detects a person over different camera frames.
 
-Firstly, I took the CUK03 dataset from Kaggle (Chinese university of hong kong dataset). It has pairs of images taken of same person from different camera angles and also pairs of images of differet people, thus it is a good dataset for our target task.
+Firstly, I took the CUHK03 dataset from Kaggle (Chinese university of hong kong dataset). It has pairs of images taken of same person from different camera angles and also pairs of images of differet people, thus it is a good dataset for our target task.
 
 Then I loaded the dataset and printed certain entries to analyze the imput and found that all the images are of shape (3, 160, 60), which makes the task a bit less cumbersome.
 
